@@ -9,7 +9,7 @@ This repository contains the code and results of a comprehensive study on the cl
 
 1. `Breast Cancer Testing`: Contains all the files from the early stages of the project where various experiments and tests were conducted.
 
-2. `Cross Validation (Wrong)`: Contains the first completed attempt of the study, but with a mistake in the way the parameters of the machine learning algorithms were optimized. The results of this attempt are not representative due to data leakage during cross-validation.
+2. `Cross Validation (Wrong)`: Contains the first completed attempt of the study, but this was an incorrect approach. The results of this attempt are not representative due to data leakage during cross-validation.
 
 3. `Nested Cross Validation`: This is the final folder, in which nested cross-validation is used to optimize the parameters of the algorithms, resulting in unbiased results. In the inner loop, the score is approximately maximized by fitting a model to each training set, and then directly maximized in selecting (hyper)parameters over the validation set. In the outer loop, the metrics are estimated by averaging test set scores over several dataset splits.
 
