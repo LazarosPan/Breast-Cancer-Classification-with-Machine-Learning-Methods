@@ -9,9 +9,9 @@ This repository contains the code and results of a comprehensive study on the cl
 
 1. `Breast Cancer Testing`: This folder contains all the files from the early stages of the project where various experiments and tests were conducted.
 
-2. `Wisconsin Diagnostic Cross Validation`: This folder contains the first completed attempt of the study, but with a mistake in the way the parameters of the machine learning algorithms were optimized. The results of this attempt are not representative due to data leakage during cross-validation.
+2. `Cross Validation (Wrong)`: This folder contains the first completed attempt of the study, but with a mistake in the way the parameters of the machine learning algorithms were optimized. The results of this attempt are not representative due to data leakage during cross-validation.
 
-3. `Wisconsin Diagnostic Nested Cross Validation`: In this folder, nested cross-validation is used to optimize the parameters of the algorithms, resulting in unbiased results. A test is performed with data not seen by the algorithm and the results are considered to be representative.
+3. `Nested Cross Validation`: In this folder, nested cross-validation is used to optimize the parameters of the algorithms, resulting in unbiased results. A test is performed with data not seen by the algorithm and the results are considered to be representative.
 
 ## Data
 
