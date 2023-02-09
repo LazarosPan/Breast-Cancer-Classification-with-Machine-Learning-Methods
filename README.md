@@ -38,6 +38,6 @@ The code in this repository was developed using Python 3.x and the following pac
 ## Usage
 
 1. Clone the repository to your local machine.
-2. Install the required packages using !pip install -r requirements.txt
+2. Install the required packages using '!pip install -r requirements.txt'
 3. Open the Jupyter Notebook file in the repository and run the code cells.
 4. The results of the study and the performance of the algorithms can be found in the notebook.
