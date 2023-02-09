@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This repository contains the code and results of a comprehensive study on the classification of breast cancer using machine learning methods, as part of a thesis project. The data used in the study were extracted from fine-needle aspiration (FNA) samples, and a total of 13 machine learning algorithms were employed to classify the samples as benign or malignant.
+This repository contains the code and results of a comprehensive study on the classification of breast cancer using machine learning methods, as part of a diploma thesis project. The data used in the study were extracted from fine-needle aspiration (FNA) samples, and a total of 13 machine learning algorithms were employed to classify the samples as benign or malignant.
 
 ## Folders & Files
 
