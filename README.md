@@ -11,7 +11,7 @@ This repository contains the code and results of a comprehensive study on the cl
 
 2. `Cross Validation (Wrong)`: This folder contains the first completed attempt of the study, but with a mistake in the way the parameters of the machine learning algorithms were optimized. The results of this attempt are not representative due to data leakage during cross-validation.
 
-3. `Nested Cross Validation`: In this folder, nested cross-validation is used to optimize the parameters of the algorithms, resulting in unbiased results. A test is performed with data not seen by the algorithm and the results are considered to be representative.
+3. `Nested Cross Validation`: In this folder, nested cross-validation is used to optimize the parameters of the algorithms, resulting in unbiased results. In the inner loop, the score is approximately maximized by fitting a model to each training set, and then directly maximized in selecting (hyper)parameters over the validation set. In the outer loop, the metrics are estimated by averaging test set scores over several dataset splits.
 
 ## Data
 
